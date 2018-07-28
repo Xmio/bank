@@ -70,7 +70,7 @@ Response:
 
 The example retrieve the register of a transfer between two accounts
 
-    GET /transfer/{accountId}
+    GET /transfer/{transferId}
     
 Response:
 

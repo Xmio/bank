@@ -30,7 +30,7 @@ public class AccountController {
 	}
 
 	@RequestMapping(method = GET, path = "account/{accountId}")
-	private Account retriveAccountr(@PathVariable("accountId") Long accountId) throws BankAccountNotFoundException {
+	private Account retriveAccount(@PathVariable("accountId") Long accountId) throws BankAccountNotFoundException {
 		return service.findBankAccount(accountId);
 	}
 
